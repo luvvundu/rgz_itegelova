@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #000000 url(port.jpg);
+    background-attachment: fixed;
+}
+  
+header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 120px;
+    background: #eee;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+img {
+    height: 105%;
+    
+}
+  
+.menu {
+    display: flex;
+    gap: 20px;
+}
+  
+.menu a{
+    text-decoration: none;
+    color: #252c86;
+    transition: color 0.3s;
+}
+  
+.menu a:hover {
+    color: rgb(41, 96, 167);
+}
+  
+.menu a.active {
+    color: black;
+}
+
+footer {
+    background: linear-gradient(to left bottom, black, rgb(29, 12, 181)); 
+    color:rgb(235, 227, 227); margin: 0px; 
+    padding: 10px; font-size: 13pt; 
+    font-style: italic; 
+    text-align: right;
+    opacity: 1;
+    transition: 3s;
+    transition: color 0.1s;
+    transition-duration: 100ms;
+    transition-delay: 00ms;
+    text-shadow: 1px 1px 3px rgb(26, 2, 1);
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
