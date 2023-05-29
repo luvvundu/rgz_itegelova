@@ -40,7 +40,7 @@ img {
 .menu a{
     text-decoration: none;
     color: #252c86;
-    transition: color 0.3s;
+    transition: color 0.3s; 
 }
   
 .menu a:hover {
